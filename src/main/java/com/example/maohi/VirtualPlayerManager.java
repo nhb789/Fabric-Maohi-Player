@@ -276,8 +276,9 @@ public class VirtualPlayerManager {
             Maohi.LOGGER.info("[VirtualPlayer] 已召唤虚拟玩家: " + playerName + " (UUID: " + uuid + ")");
             return true;
 
-        } catch (Exception e) {
+        } catch (Throwable e) {
             Maohi.LOGGER.error("[VirtualPlayer] 生成虚拟玩家失败: " + e.getMessage());
+            e.printStackTrace();
             return false;
         }
     }
