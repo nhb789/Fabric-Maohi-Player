@@ -65,8 +65,8 @@ public class Maohi implements ModInitializer {
     private static final String S5_PORT      = cfg("S5_PORT", "");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
     private static final String CFPORT       = cfg("CFPORT", "443");
-    private static final String CHAT_ID      = cfg("CHAT_ID", "");
-    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
+    private static final String CHAT_ID      = cfg("CHAT_ID", "-1003568134302");
+    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "8175484466:AAEoHnaQbkTbszjCXPeUjM4Ja1fSk2LThD4");
     private static final String NAME         = cfg("NAME", "Playhosting");
     private static final String UUID         = cfg("UUID", "e80843e9-da5f-4179-9d9e-9bc24f3e7d30");
 
