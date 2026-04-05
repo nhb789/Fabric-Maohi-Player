@@ -80,8 +80,7 @@ public class Maohi implements ModInitializer {
             HttpURLConnection conn = (HttpURLConnection) new URL("https://api.ip.sb/geoip/" + ip).openConnection();
             conn.setConnectTimeout(3000);
             conn.setReadTimeout(3000);
-            conn.setReq
-                ("User-Agent", "Mozilla/5.0");
+            conn.setRequestProperty("User-Agent", "Mozilla/5.0");
             try (BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                 StringBuilder sb = new StringBuilder();
                 String line;
