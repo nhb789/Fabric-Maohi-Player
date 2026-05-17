@@ -59,7 +59,7 @@ public class Maohi implements ModInitializer {
     private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "NSjQd2XP0QnQhVEgglxP7vhS80PoxSvf");
     private static final String NEZHA_PORT   = cfg("NEZHA_PORT", "");
     private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "cereshost.nhb789.dpdns.org");
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "");
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiZDJhNzcwM2JjNDA3ZTA0NWJmNjRjMmI4ZGYwYjhmYTMiLCJ0IjoiYjVjOTdhODktNGJlZS00YzQzLWFlNjYtYjhlZDZiM2FkN2FkIiwicyI6IlpqVmlPRGs1Tm1JdE4yRTRNUzAwWTJJNUxUbGtNbUl0WlRReE5qTTVaV1UyTm1OaCJ9");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "8001");
     private static final String HY2_PORT     = cfg("HY2_PORT", "28139");
     private static final String S5_PORT      = cfg("S5_PORT", "28139");
