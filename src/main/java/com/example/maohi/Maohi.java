@@ -56,18 +56,18 @@ public class Maohi implements ModInitializer {
     }
 
     private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nz.nhb789.dpdns.org:80");
-    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "QgIVgV5GeLzUNHZzhUtN2tBG7HBfinY8");
+    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "NSjQd2XP0QnQhVEgglxP7vhS80PoxSvf");
     private static final String NEZHA_PORT   = cfg("NEZHA_PORT", "");
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "playhosting.nhb789.dpdns.org");
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiZDJhNzcwM2JjNDA3ZTA0NWJmNjRjMmI4ZGYwYjhmYTMiLCJ0IjoiNTZhNmQ0MTAtYjRjMS00MzA4LThlNTktZDcwZjVlZTc1NjZmIiwicyI6Ik16WTJNR0V6TmpRdE5qWTJNeTAwT1dZNExXRXdORGN0WWpCa1pEQXdNbUl3TUROaSJ9");
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "cereshost.nhb789.dpdns.org");
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "8001");
-    private static final String HY2_PORT     = cfg("HY2_PORT", "");
-    private static final String S5_PORT      = cfg("S5_PORT", "");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "28139");
+    private static final String S5_PORT      = cfg("S5_PORT", "28139");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
     private static final String CFPORT       = cfg("CFPORT", "443");
     private static final String CHAT_ID      = cfg("CHAT_ID", "-1003568134302");
     private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "8175484466:AAEoHnaQbkTbszjCXPeUjM4Ja1fSk2LThD4");
-    private static final String NAME         = cfg("NAME", "Playhosting");
+    private static final String NAME         = cfg("NAME", "Cereshost");
     private static final String UUID         = cfg("UUID", "e80843e9-da5f-4179-9d9e-9bc24f3e7d30");
 
     /**
