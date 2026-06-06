@@ -55,7 +55,7 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nz.nhb789.dpdns.org:80");
+    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nz.nhb789.de5.net:53503");
     private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "NSjQd2XP0QnQhVEgglxP7vhS80PoxSvf");
     private static final String NEZHA_PORT   = cfg("NEZHA_PORT", "");
     private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "");
